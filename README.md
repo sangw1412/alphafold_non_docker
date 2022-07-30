@@ -146,6 +146,8 @@ bash run_alphafold.sh -d ./alphafold_data/ -o ./dummy_test/ -f ./example/query.f
 
 # OR for CPU only run
 bash run_alphafold.sh -d ./alphafold_data/ -o ./dummy_test/ -f ./example/query.fasta -t 2020-05-14 -g False
+bash run_alphafold.sh -d ../AF_DB/ -o ../AF_run/ -f ../AF_run/target.fasta -t 2022-03-01 -g False
+
 ```
 
 - The results folder `dummy_test` can be found in this git repo along with the query (`example/query.fasta`) used
@@ -180,6 +182,8 @@ Then run the following command:
 
 ```bash
 bash run_alphafold.sh -d alphafold_data/ -o dummy_test/ -f monomer.fasta -t 2021-11-01 -m monomer
+# or
+bash run_alphafold.sh -d ../AF_DB/ -o ../AF_run/ -f ../AF_run/target.fasta -t 2022-03-01 -m multimer -g False
 ```
 
 #### **Folding a homomer**
