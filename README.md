@@ -183,7 +183,7 @@ Then run the following command:
 ```bash
 bash run_alphafold.sh -d alphafold_data/ -o dummy_test/ -f monomer.fasta -t 2021-11-01 -m monomer
 # or
-bash run_alphafold.sh -d ../AF_DB/ -o ../AF_run/ -f ../AF_run/target.fasta -t 2022-03-01 -m multimer -g False
+bash run_alphafold.sh -d ../AF_DB/ -o ../AF_run/ -f ../AF_run/target.fasta -t 2022-03-01 -m multimer -g False -l 1
 ```
 
 #### **Folding a homomer**
